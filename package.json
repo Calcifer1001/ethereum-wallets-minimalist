@@ -1,0 +1,35 @@
+{
+  "name": "ethereum-wallets-minimalist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@near-wallet-selector/core": "8.9.13",
+    "@near-wallet-selector/ethereum-wallets": "8.9.13",
+    "@near-wallet-selector/here-wallet": "8.9.13",
+    "@near-wallet-selector/modal-ui": "8.9.13",
+    "@near-wallet-selector/my-near-wallet": "8.9.13",
+    "@rainbow-me/rainbowkit": "2.1.7",
+    "@tanstack/react-query": "5.56.2",
+    "@web3modal/wagmi": "5.0.6",
+    "next": "14.2.14",
+    "react": "^18",
+    "react-dom": "^18",
+    "viem": "2.21.10",
+    "wagmi": "2.10.9",
+    "zustand": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "typescript": "^5"
+  }
+}
